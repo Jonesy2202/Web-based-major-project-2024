@@ -1,0 +1,8 @@
+Your submission was successful!
+Course: CS39930_AB2_2023-24, Web-Based Major Project (AB2 2023-24)
+Assessment: Technical work as an exported GitLab repository
+
+Submission date: 02/05/2024, 17:33
+Submission size: 30.9 MB
+Submitter: Ryan Jones
+Confirmation number: 803928bb5fd347869a7ed69cf85fbeda

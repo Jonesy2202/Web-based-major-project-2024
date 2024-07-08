@@ -1,0 +1,245 @@
+Received: from CWLP265MB5786.GBRP265.PROD.OUTLOOK.COM (2603:10a6:400:1a0::14)
+ by LO2P265MB3439.GBRP265.PROD.OUTLOOK.COM with HTTPS; Thu, 22 Feb 2024
+ 10:55:16 +0000
+Received: from DU7P190CA0004.EURP190.PROD.OUTLOOK.COM (2603:10a6:10:550::33)
+ by CWLP265MB5786.GBRP265.PROD.OUTLOOK.COM (2603:10a6:400:1a0::14) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7316.24; Thu, 22 Feb
+ 2024 10:55:14 +0000
+Received: from DU6PEPF0000B620.eurprd02.prod.outlook.com
+ (2603:10a6:10:550:cafe::62) by DU7P190CA0004.outlook.office365.com
+ (2603:10a6:10:550::33) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7292.43 via Frontend
+ Transport; Thu, 22 Feb 2024 10:55:14 +0000
+Authentication-Results: spf=pass (sender IP is 144.124.16.170)
+ smtp.mailfrom=aber.ac.uk; dkim=pass (signature was verified)
+ header.d=aber.ac.uk;dmarc=pass action=none header.from=aber.ac.uk;
+Received-SPF: Pass (protection.outlook.com: domain of aber.ac.uk designates
+ 144.124.16.170 as permitted sender) receiver=protection.outlook.com;
+ client-ip=144.124.16.170; helo=smtp1.aber.ac.uk; pr=C
+Received: from smtp1.aber.ac.uk (144.124.16.170) by
+ DU6PEPF0000B620.mail.protection.outlook.com (10.167.8.136) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.7292.25 via Frontend Transport; Thu, 22 Feb 2024 10:55:14 +0000
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=aber.ac.uk;
+	s=smtphost20210608; h=Date:From:Subject:To;
+	bh=F2X9wFoK+v8Zu6Q5lAyabRpl51UsYwwZ9/Wv2y88NPA=; b=M28VjRqKm6/3srrUF3SjEWi3JZ
+	fdlVvjL33SKk9npDShbvr0YD3rkhj/R9gLkHsyzJcfVE9X/51Sf0Y2j7fMif/qkAbwF4DaaLbvOTJ
+	1L9i2B9I5pM1iqYbXApyXyJCyCcGnOdjtXVhU4R0yZ9zHL+Cr0VWU7OCIwtSbu2TvsU/L3QFYVw9r
+	2XntYygKTXXFGWjQwnkXrPzgDtKVsGqbt5CCtl8SYI/PB9mNCRvyKYlEGHKEXtp4ldTb+y1XzDGz9
+	KIC15iG0GtBAKd2QwVOjPnI2GmPNvd6ElZ5IrNUdAnwCu8nJfRjJe82uJtrSVbxzSseXAg3J2NJCk
+	5iMAeB9Q==;
+Received: from rheidol.aber.ac.uk ([2001:630:2c3:116:144:124:19:37])
+	by smtp1.aber.ac.uk with esmtps  (TLS1.3) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.94.2)
+	(envelope-from <www-data@aber.ac.uk>)
+	id 1rd6jJ-00DRkR-FA
+	for ryj7@aber.ac.uk; Thu, 22 Feb 2024 10:55:14 +0000
+Received: from www-data by rheidol.aber.ac.uk with local (Exim 4.94.2)
+	(envelope-from <www-data@aber.ac.uk>)
+	id 1rd6jR-00FZbX-LN
+	for ryj7@aber.ac.uk; Thu, 22 Feb 2024 10:55:13 +0000
+To: ryj7@aber.ac.uk
+Subject: Your Research Ethics Application | Eich cais Ymchwil Moesol
+From: ethics@aber.ac.uk
+Reply-To: ethics@aber.ac.uk
+Content-Type: text/html; charset="UTF-8"
+Message-Id: <E1rd6jR-00FZbX-LN@rheidol.aber.ac.uk>
+Date: Thu, 22 Feb 2024 10:55:13 +0000
+X-PAU-Origin: Internal
+Return-Path: www-data@aber.ac.uk
+X-MS-Exchange-Organization-ExpirationStartTime: 22 Feb 2024 10:55:14.5465
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 625d1f17-7f20-470e-79e6-08dc3394bfc7
+X-EOPAttributedMessage: 0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic:
+ DU6PEPF0000B620:EE_|CWLP265MB5786:EE_|LO2P265MB3439:EE_
+X-MS-Exchange-Organization-AuthSource:
+ DU6PEPF0000B620.eurprd02.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-OriginatorOrg: aber.ac.uk
+X-MS-Office365-Filtering-Correlation-Id: 625d1f17-7f20-470e-79e6-08dc3394bfc7
+X-MS-Exchange-AtpMessageProperties: SA|SL
+X-MS-Exchange-Organization-SCL: -1
+X-Microsoft-Antispam: BCL:0;
+X-Forefront-Antispam-Report:
+ CIP:144.124.16.170;CTRY:GB;LANG:cy;SCL:-1;SRV:;IPV:NLI;SFV:SKN;H:smtp1.aber.ac.uk;PTR:smtp1.aber.ac.uk;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 22 Feb 2024 10:55:14.5465
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 625d1f17-7f20-470e-79e6-08dc3394bfc7
+X-MS-Exchange-CrossTenant-Id: d47b090e-3f5a-4ca0-84d0-9f89d269f175
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=d47b090e-3f5a-4ca0-84d0-9f89d269f175;Ip=[144.124.16.170];Helo=[smtp1.aber.ac.uk]
+X-MS-Exchange-CrossTenant-AuthSource:
+ DU6PEPF0000B620.eurprd02.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: CWLP265MB5786
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:01.9439749
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.7316.023
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(930097)(140003)(1420198);
+X-Microsoft-Antispam-Message-Info:
+	=?Windows-1252?Q?iKGD6HsZ9PxQTFWV9utr5eYAT0hbzySSP+mADepX6TUX8FMwpcZSCJo8?=
+ =?Windows-1252?Q?AbaaDH5AmymbgPM2hlaFTqfds8kShE8Q3v87TNtHIwqMCEbDgk/FRbgn?=
+ =?Windows-1252?Q?aDYCq9h05hIIdI3yqpOX+cfC7KVXMtnMx14bK4s/hNFBFf8+ZImYPkuz?=
+ =?Windows-1252?Q?sj1qrf8njt9fmLQM0iLWUWLCNxA4LslvxJZXFP1DIq0CuPhA4seXBgxv?=
+ =?Windows-1252?Q?PGws4694vyNBUMBPLjw7lJnh6yYghUKg0htx5iS2OHhfidkaI9BykhKD?=
+ =?Windows-1252?Q?uUECdm8gdhT9GXu39x9hlDDslaxiVAXTObsoL9uF0zEJ2dH/Yc85jwBN?=
+ =?Windows-1252?Q?JdWWvh/btFSvs/nCZv2dNLAygCkeuq/dScGBIxfg2bCyCPakwJBZwRBf?=
+ =?Windows-1252?Q?6kueU8yf8FmYHHwIUyFfaGZMD7nfM/40ry8DpVepZEw1m02Thy+4HB3b?=
+ =?Windows-1252?Q?EVHzqXnTPi7EHQhifSoTyPhzOr9c4JA7CF9otvGkskWYsm8VBNGcxz1r?=
+ =?Windows-1252?Q?HajRY4+SOzEnsYtomA/qraVCth6mJhT8HgDQqLu9M2iOicnQIbRLnMW8?=
+ =?Windows-1252?Q?IzVpGUYvFtQejFjKNToYNJQlSNGZHJ5tgDSfmJVwCY4zL5cRFTwhXDh6?=
+ =?Windows-1252?Q?/Li/X7YpE4V81XKFucZFgH2WghgzPXuClKYKf7B/5inPCZ52iPuT1BaT?=
+ =?Windows-1252?Q?GeT7Cf7pHb05A4uGcHnPvSeQpcKx31jaP6SwEU5I3TMxiGyb2z4Fa9wg?=
+ =?Windows-1252?Q?GFeRspivMQIINlKCanpdTQTf5eZmZ2s3wVKG/bubDo0u2b+l8wbGtIKX?=
+ =?Windows-1252?Q?dkFJs7jzyfwpnBPBRCOeatg/j9KvrEGuaflPRYOueQObDn5Wcif0IJo+?=
+ =?Windows-1252?Q?E0WTfPg6vYtbZTjs4PvSY4UeAJgcP8ZkzcK6fqzi/VcequFtnA/h17/y?=
+ =?Windows-1252?Q?MRBe43CvIfD7er59iSfaVu6Jj/xhVIDSJm66oP3ymXn7+jIYyWqVD98T?=
+ =?Windows-1252?Q?0dCY4jeHd7BiaokOCYClhSHqe35vtMN/l/VsZzu1GwTbU4SxgN4yb3wd?=
+ =?Windows-1252?Q?gv8LWH6WwbfFMuPwuGQQuLe5vMzhCeiC1N/w4x1ace9/XYgylXVsBSc4?=
+ =?Windows-1252?Q?KMRPIugoL0dSu7eDLv6cGrXzGuK3/A9B3u1d+zHvch6KlA+ErQsjj5T1?=
+ =?Windows-1252?Q?ITdKa7zYawy4BBb5bIPUbzumCF+6Hy6fcEJ/VoLHaEEEmUDft8JjpmIo?=
+ =?Windows-1252?Q?44z8otlfAUuLQTLNmBRuM36C6u181CTDVHhy8qHRxwEZ1sFsRe7G4IGQ?=
+ =?Windows-1252?Q?CndY0OuQEb/+UAE1XMYRjCF+pbFCqrtBpH6SQ/B1IDcL5aQOFIxl+y+D?=
+ =?Windows-1252?Q?cB3Lgiu34lR+veh2+jlSx0IReht932UfA+q3a+lZTNP3cHt2VnnK6hhP?=
+ =?Windows-1252?Q?JWKobaOzAUg3GywqmlJwy/YHEqrhqxviKQJTC6Hj0+zIt1tHYZebnyMu?=
+ =?Windows-1252?Q?U2lKDlZJs7NXXOehUdOgbOgEkqgoqC+7k+DP+o/In88G2r3cC3nVM9nh?=
+ =?Windows-1252?Q?n+0nUG+p6pJqX2dmqCFWgSRDosINzu9J35ea72WY9hQTQ/ZFxUY4JUor?=
+ =?Windows-1252?Q?ea+AAPpfhUCZtuAb8um617KV6hhS2/cdWDV1QNYXr6M1ChltfQtbFgfE?=
+ =?Windows-1252?Q?CdT3vONRlEovf4CZBgnbV5KNb/9b017M/4td3ZN5tTrwqY+JrGUHBixi?=
+ =?Windows-1252?Q?NuFWjr5J7nX1YuGdWT0L6z4nKBS1ZAlSUxoHjBa8ubltDRFmI67ikCtu?=
+ =?Windows-1252?Q?WsbhzSu2VOMQpvndT5eRVPeNiSMqwbzhq/oIgD9Rv7zjKG2GLhMRWn7W?=
+ =?Windows-1252?Q?SAKuMIrLVBT3U3+73C3KtzhcYwDclDA0muAuj+CWppG5nFJukzwXs3TD?=
+ =?Windows-1252?Q?ntCxb7Mb2vSLPU0ofLaWnHx4PuLUDkd43Y/YOTXkfOs1FEGsS8sV7wed?=
+ =?Windows-1252?Q?ahhWISdWf8zesm7ZrMiqhDGBDW8lI9YPsehKPQim02J0SIBspPSTxc6+?=
+ =?Windows-1252?Q?Og6bhggBjNAmV7y8DAPxc5BWUEyutNsMDL86m+3KdxL6tmUnfwBrezT8?=
+ =?Windows-1252?Q?UcFKPcRWdQwl3+FR46D8brhKAsFxbQbRgNlYo8vJdKS+NHhlsaWBSCwf?=
+ =?Windows-1252?Q?1eCOP5nNcN8=3D?=
+MIME-Version: 1.0
+
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
+<body><p>
+
+Assessment ID (reference): 28808</p>
+
+<p>
+
+Your <strong>assessment</strong>
+has been approved at a departmental level
+
+by Edel Sherratt </p>
+
+<p>
+
+<strong>*Please note*</strong></p>
+
+<p>
+
+Whilst an application to the Research Ethics Panel is not
+required, you
+
+should note that any significant changes to the approved proposal
+may
+
+invalidate this outcome and you should complete a new ethics assessment.
+
+This approval does not cover any research involving face to face
+
+interaction with human participants until the University issues guidance
+
+otherwise. Research should follow Aberystwyth University's Covid19
+
+Policy.</p>
+
+<p>
+
+Please see the AU Research Ethics Framework for further
+details: <a href="http://www.aber.ac.uk/ethics">www.aber.ac.uk/ethics</a> </p>
+
+<p>
+
+If you have any queries, please contact your supervisor
+(students) or
+
+Director of Research (staff) in the first instance.
+Alternatively, please
+
+contact <a href="mailto:ethics@aber.ac.uk">ethics@aber.ac.uk</a>&nbsp; or
+
+01970 621694</p>
+
+<p>
+
+Good luck with your project.</p>
+
+<hr><p>
+
+Rhif cyfeirnod y cais: 28808</p>
+
+<p>
+
+Mae eich asesiad wedi cael ei gymeradwyo ar lefel adrannol gan Edel
+
+Sherratt</p>
+
+<p>
+
+<strong>*Nodwch*</strong></p>
+
+<p>
+
+Er nad oes angen cais i Banel Moeseg Ymchwil, petai bod unrhyw newidiadau
+
+sylweddol i'ch ymchwil arfaethedig, dylech gysylltu â'ch adran i sicrhau
+
+bod statws moesegol eich prosiect yn parhau i fod yn ddilys.</p>
+
+<p>
+
+Gwelwch Fframwaith Moeseg Ymchwil PA am fanylion pellach <a href="http://www.aber.ac.uk/moeseg">www.aber.ac.uk/moeseg</a> </p>
+
+<p>
+
+Os oes gennych unrhyw ymholiadau, cysylltwch â’ch goruchwylydd(myfyrwyr)
+
+ne Cyfarwyddwr Ymchwil yn y lle cyntaf. Neu cysylltwch a&nbsp; &nbsp;<a href="mailto:ethics@aber.ac.uk">ethics@aber.ac.uk</a> &nbsp;neu 01970
+
+621694</p>
+
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Pob lwc gyda'ch prosiect!</p>
+
+</body></html>

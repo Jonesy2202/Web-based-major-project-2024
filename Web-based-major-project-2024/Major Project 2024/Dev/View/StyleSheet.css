@@ -1,0 +1,258 @@
+/** {*/
+/*    border:1px dashed red*/
+/*}*/
+
+
+/* Navigation bar */
+
+nav {
+    background-color: #17252A;
+    color: #FFFFFF;
+    border: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar a {
+    float: left;
+    color: #FFFFFF;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar-expand-lg {
+    padding-top: -15px;
+}
+
+.navbar a:hover {
+    background-color: #3AAFA9;
+    color: #FFFFFF;
+}
+
+.navbar a.active {
+    background-color: #3AAFA9;
+    color: #17252A;
+}
+
+.navbar-toggler {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navdiv {
+    padding-bottom: 20px;
+}
+
+/* Headers */
+h1 {
+    padding-left: 15px;
+    color: #ffffff;
+    font-size: 400%;
+    text-shadow: 2px 2px 2px #005570;
+}
+
+header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url("Images/pexels-krsvch-1153655.jpg");
+}
+
+#cardHeader {
+    color: #2e2e2e;
+    margin-top: 10px;
+}
+
+.recipeHeader {
+    font-size: 1.2rem;
+}
+
+/* Background */
+body {
+    background-color: #DEF2F1;
+    margin: 0;
+}
+
+/* Cards */
+.card {
+    border-color: black;
+}
+
+.recipecard {
+    color:black;
+    background-color: white;
+}
+
+.mainrecipecard {
+    margin: 5px;
+}
+.mainrecipecard:hover {
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 1px;
+}
+.maincard {
+    background-color: #eef2fa;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 1px;
+}
+
+/* Tables */
+table, td, th {
+    border: 1px solid;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+}
+
+th, td {
+    padding-left: 8px;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #005570;
+    color: white;
+}
+
+th {
+    background-color: rgba(0, 85, 112, 0.2);
+    text-decoration-color: white;
+}
+
+.ingredientTable {
+    width: 100%;
+    margin: 2px;
+    border-radius: 4px;
+}
+
+/* Text */
+* {
+    font-family: "Arial", serif;
+}
+
+/* Button */
+
+button {
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+button a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.positiveButton {
+    background-color: lightgreen;
+}
+
+.neutralButton {
+    background-color: #3AAFA9;
+    color: white;
+}
+
+.negativeButton {
+    background-color: crimson;
+    color: white;
+}
+
+.buttonMargin {
+    margin: 5px;
+}
+
+.floatButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Forms */
+textarea {
+    width: 100%;
+    padding: 2px;
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+input {
+    width: 100%;
+    padding: 2px;
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+
+/* Add/edit Recipes */
+.addIngredient {
+    width: 50%;
+}
+
+/* Login/register card */
+
+.buttonPosition {
+    text-align: center;
+    margin: 5px;
+    padding-left: 5px;
+}
+
+.message {
+    color: #b10000;
+    font-size: 80%;
+    word-wrap: break-word;
+}
+
+#registerForm {
+    margin: 15px
+}
+
+#loginForm {
+    margin: 15px
+}
+
+#recipeImage {
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Selected Recipe */
+
+#recipeIngredientsTable {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Images */
+img {
+    border: black 1px solid;
+    overflow: hidden;
+}
+
+.recipe-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Shopping list */
+.checked {
+    text-decoration: line-through;
+}
+
+/* Admin page */
+.adminPassBox {
+    width: auto;
+}
