@@ -1,0 +1,1 @@
+This is my 3rd year major project while studying at Aberystwyth university. It is a meal planning site that allows its users to create and share their recipes with their friends and family. Recipes can also be added to planners and used to create a shopping list. Future changes that I would have liked to have made are outlined in the end report. 
